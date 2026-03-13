@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<head>
+
+  <title>Register | SaaS Platform</title>
+  <style>
+    body {
+      font-family:  Arial, Georgia ;
+      background: rgb(92, 103, 165);
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+ 
+   
+  
+  </style>
+</head>
+<body>
+  <div class="registration-container">
+    <div class="registration-header">
+      <h1>Create Your Account</h1>
+      <p>Start your free trial today</p>
+    </div>
+
+  <style>
+    .registration-container {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 420px;
+      padding:32px;
+    }
+
+    .registration-header {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+
+    .registration-header h1 {
+      font-size: 30px;
+      color: rgb(17, 24, 39);
+      margin: 0;
+    }
+
+    .registration-header p {
+      color: rgb(107, 114, 128);
+      font-size: 15px;
+    }
+
+  </style>
+    <form>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="password" placeholder="Password" required>
+      <input type="password" placeholder="Confirm Password" required>
+      <button type="submit" class="cta-button">Sign Up</button>
+    </form>
+
+  <style>
+   form {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    input {
+      padding: 0.75rem;
+      border: 1px solid rgb(209, 213, 219);
+      border-radius: 8px;
+      font-size: 16px;
+    }
+
+ input:focus {
+      border-color: rgb(79, 70, 229);
+      outline: none;
+      box-shadow: 0 0 0 3px rgba(79,70,229,0.2);
+    }
+
+    .cta-button {
+      background:rgb(79, 70, 229);
+      color:white;
+      border: none;
+      padding: 14px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background: rgb(67, 56, 202);
+    }
+
+  </style>
+    <div class="footer-text">
+      Already have an account? <a href="#">Log in</a>
+    </div>
+  </div>
+
+  <style>
+  .footer-text {
+      text-align: center;
+      margin-top: 16px;
+      font-size: 14px;
+      color: rgb(107, 114, 128); /* greyish */
+    }
+
+    .footer-text a {
+      color:rgb(79, 70, 229);
+      text-decoration: none;
+    }
+
+  </style>
+</body>
+</html>

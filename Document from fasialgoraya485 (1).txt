@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>EduSaaS - About Us</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Georgia ;
+      background: rgb(244, 246, 249);
+      color: black;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>EduSaaS</h1>
+    <nav>
+    <a href="EduSaaS - Registration.html">Registration</a>
+      <a href="EduSaaS - Login.html">Login </a>
+      <a href="EduSaaS - Learn Smarter (1).html">Home Page</a>
+      <a href="EduSaaS - Contact Us.html">Contact Us</a>
+      <a href="EduSaaS - About Us.html">About Us</a>
+    </nav>
+
+  </header>
+ <style>
+ header {
+      background: rgb(74, 144, 226);
+      color: white;
+      padding: 16px 32px ;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+ header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+  nav a {
+      color: rgb(74, 144, 226);
+      margin-left: 16px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+ </style>
+
+  <section class="about-hero">
+    <h2>About EduSaaS</h2>
+    <p>EduSaaS is a modern educational platform designed to empower students, teachers, and institutions with smart tools for learning, collaboration, and growth.</p>
+  </section>
+<style>
+ .about-hero {
+      text-align: center;
+      padding: 64px 32px;
+}
+ .about-hero h2 {
+      font-size: 40px;
+      margin-bottom: 16px;
+    }
+      background: linear-gradient(135deg, #4a90e2, #50c9c3);
+      color: #fff;
+    }
+   .about-hero p {
+      font-size: 20px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+</style>
+
+  <section class="mission">
+    <h2>Our Mission</h2>
+    <p>We believe education should be accessible, engaging, and personalized. Our mission is to bridge the gap between technology and learning, providing innovative solutions that help learners achieve their goals and educators deliver impactful experiences.</p>
+  </section>
+<style>
+  .mission {
+      padding: 48px 32px;
+      background: white;
+      text-align: center;
+    }
+    .mission h2 {
+      color: rgb(74, 144, 226);
+      margin-bottom: 16px;
+    }
+    .mission p {
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+</style>
+  <section class="team">
+    <h2>Meet Our Team</h2>
+    <div class="team-members">
+      <div class="member">
+        <h3>Sarah Khan</h3>
+        <p>Founder & CEO</p>
+      </div>
+      <div class="member">
+        <h3>Ali Raza</h3>
+        <p>Head of Product</p>
+      </div>
+      <div class="member">
+        <h3>Ayesha Malik</h3>
+        <p>Lead Developer</p>
+      </div>
+      <div class="member">
+        <h3>John Smith</h3>
+        <p>Education Specialist</p>
+      </div>
+    </div>
+  </section>
+<style>
+   .team {
+      padding: 48px 32px;
+      background: #f9f9f9;
+    }
+    .team h2 {
+      text-align: center;
+      color: #4a90e2;
+      margin-bottom:32px;
+    }
+    .team-members {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+  .member {
+      width: 250px;
+      background: white;
+      padding:24px;
+      margin: 16px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .member h3 {
+      margin:15px 0;
+      color:rgb(51, 51, 51);
+    }
+    .member p {
+      font-size:15px;
+      color: rgb(85, 85, 85);
+    }
+</style>
+  <section class="cta">
+    <h2>Join Us in Transforming Education</h2>
+    <button class="btn">Get Started</button>
+  </section>
+<style>
+    .cta {
+      text-align: center;
+      padding: 48px 32px;
+      background: white;
+    }
+    .cta h2 {
+      margin-bottom: 16px;
+      color: rgb(74, 144, 226);
+    }
+    .cta .btn {
+      padding:12 px 24 px;
+      background:rgb(74, 144, 226);
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16 px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .cta .btn:hover {
+      background: rgb(53, 122, 184);
+    }
+</style>
+  <footer>
+    © 2026 EduSaaS. All rights reserved.
+  </footer>
+<style>
+  footer {
+      background: black;
+      color: white;
+      text-align: center;
+      padding:16px;
+      font-size: 15px;
+    }
+
+  </style>
+</body>
+</html>
